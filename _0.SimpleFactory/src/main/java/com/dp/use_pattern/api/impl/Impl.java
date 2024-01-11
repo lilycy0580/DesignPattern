@@ -1,4 +1,6 @@
-package com.dp.use_pattern.api;
+package com.dp.use_pattern.api.impl;
+
+import com.dp.use_pattern.api.Api;
 
 public class Impl implements Api {
     @Override

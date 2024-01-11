@@ -6,7 +6,7 @@ import com.dp.use_pattern.factory.Factory;
 public class Client {
 
     public static void main(String[] args) {
-        Api api = Factory.createApi(2);
+        Api api = Factory.createApi();
         api.test1("just test!");
     }
 
