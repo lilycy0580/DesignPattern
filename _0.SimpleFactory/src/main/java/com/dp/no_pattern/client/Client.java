@@ -1,7 +1,7 @@
-package com.dp.client;
+package com.dp.no_pattern.client;
 
-import com.dp.api.Api;
-import com.dp.api.Impl;
+import com.dp.no_pattern.api.Api;
+import com.dp.no_pattern.api.Impl;
 
 public class Client {
     public static void main(String[] args) {

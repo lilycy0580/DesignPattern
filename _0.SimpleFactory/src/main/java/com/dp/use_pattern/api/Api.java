@@ -1,4 +1,4 @@
-package com.dp.api;
+package com.dp.use_pattern.api;
 
 public interface Api {
 
