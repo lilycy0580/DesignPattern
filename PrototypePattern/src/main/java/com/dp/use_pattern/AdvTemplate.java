@@ -17,7 +17,4 @@ public class AdvTemplate {
         return this.advContext;
     }
 
-
-
-
 }

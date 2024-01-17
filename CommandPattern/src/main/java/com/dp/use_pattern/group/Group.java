@@ -1,4 +1,4 @@
-package com.dp.no_pattern.group;
+package com.dp.use_pattern.group;
 
 public abstract class Group {
 
@@ -16,5 +16,9 @@ public abstract class Group {
 
     // 给出变更计划
     public abstract void plan();
+
+    public void rollback(){
+        // 根据日志回滚
+    }
 
 }

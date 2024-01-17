@@ -1,4 +1,4 @@
-# IteratorPattern 迭代器模式
+# IteratorPattern
 
 ```
 Provide a way to access the elements of an aggregate object sequentially without exposing its

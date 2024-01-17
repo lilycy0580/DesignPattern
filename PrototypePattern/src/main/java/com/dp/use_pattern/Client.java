@@ -18,7 +18,7 @@ public class Client {
             Mail mailClone = mail.clone();
             mailClone.setAppellation(getRandString(5)+"先生/女士");
             mailClone.setReceiver(getRandString(5)+"@"+getRandString(8)+".com");
-            sendMail(mail);
+            sendMail(mailClone);
             i++;
         }
     }
