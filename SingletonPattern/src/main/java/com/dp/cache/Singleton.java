@@ -19,6 +19,7 @@ public class Singleton {
             instance = new Singleton();
             map.put(DEFAULT_KEY,instance);
         }
+        return instance;
     }
 
 }
