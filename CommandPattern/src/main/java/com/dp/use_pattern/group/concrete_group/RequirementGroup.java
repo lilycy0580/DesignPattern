@@ -6,7 +6,7 @@ import com.dp.use_pattern.group.Group;
 public class RequirementGroup extends Group {
     @Override
     public void find() {
-        System.out.println("find 需求组");
+        System.out.println("find 产品组");
     }
 
     @Override

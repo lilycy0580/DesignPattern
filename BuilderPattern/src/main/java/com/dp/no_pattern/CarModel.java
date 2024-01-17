@@ -6,6 +6,9 @@ public abstract class CarModel {
 
     // 顺序  汽车的行车,泊车,鸣笛,引擎声都是由车商自己控制,他想什么顺序就什么顺序
     private ArrayList<String> sequence = new ArrayList<String>();
+    final public void setSequence(ArrayList<String> sequence){
+        this.sequence = sequence;
+    }
 
     // 行车
     protected abstract void start();
@@ -34,8 +37,6 @@ public abstract class CarModel {
         }
     }
 
-    final public void setSequence(ArrayList<String> sequence){
-        this.sequence = sequence;
-    }
+
 
 }
